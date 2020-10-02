@@ -29,6 +29,9 @@ glinet,gl-mt300n-v2)
 	ucidef_set_led_netdev "wifi_led" "wifi" "red:wlan" "wlan0"
 	ucidef_set_led_switch "wan" "wan" "green:wan" "switch0" "0x1"
 	;;
+hak5,wifi-pineapple-mk7)
+	ucidef_set_led_netdev "open_wifi_led" "wifi" "blue:system" "phy0tpt"
+	;;
 hilink,hlk-7628n|\
 skylab,skw92a)
 	ucidef_set_led_netdev "wifi_led" "wifi" "green:wlan" "wlan0"
